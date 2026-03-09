@@ -8,12 +8,11 @@ This project contains 3 modules :
 
 **Steps to run the project locally :**
 
-**(PRE-REQUISITES):**
+**PRE-REQUISITES:**
 
 Go to `ai.google.dev` and create a free Gemini API for yourself.
 
-
-**(A) Run the Back-End Application**
+**(A).RUN - RUN THE BACK-END APPLICATION**
 1. Clone the project on your local machine.
 2. Open the cloned folder.
 3. Preview hidden folders > Delete `.idea` file.
@@ -23,8 +22,31 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 7. Write : `GEMINI_URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=";GEMINI_KEY={YOUR_API_KEY}` (i won't give mine, hehe).
 8. Apply > OK.
 9. Run and your backend will be live on `http://localhost:8080/api/email/generate`.
+**(A).TEST - TEST THE BACK-END APPLICATION**
+1. Install and Open Postman application.
+2. Create a new collection and a 'POST' request with URL `http://localhost:8080/api/email/generate`
+3. Give the payload in following format:
+   `{
+     "emailContent": "TEST EMAIL",
+     "tone": "THE TONE YOU WANT IN REPLY"
+   }`
 
 
-**(B) Run the Front-End Application**
+**(B) RUN THE FRONT-END APPLICATION**
+1. Open `email-writer-react` in VS Code or your preferred IDE.
+2. Open `App.jsx` file within `email-writer-react` module.
+3. Open intergrated terminal and run the command `npm run dev`.
+4. Your Front-end Email reply generator will be now live on `http://localhost:5173/`.
 
-TO BE UPDATED
+**(C) ADDING CHROME EXTENSION TO YOUR BROWSER**
+1. Open Chrome and navigate to `chrome://extensions/`.
+2. Toggle Developer tool to "ON" on top right corner.
+3. Click on Load unpacked option and upload the `email-writer-ext` module.
+4. Right click the uploaded extension and pin it. 
+
+
+
+
+
+
+
