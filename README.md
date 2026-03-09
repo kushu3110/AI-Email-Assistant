@@ -22,6 +22,7 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 7. Write : `GEMINI_URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=";GEMINI_KEY={YOUR_API_KEY}` (i won't give mine, hehe).
 8. Apply > OK.
 9. Run and your backend will be live on `http://localhost:8080/api/email/generate`.
+
 **(A).TEST - TEST THE BACK-END APPLICATION**
 1. Install and Open Postman application.
 2. Create a new collection and a 'POST' request with URL `http://localhost:8080/api/email/generate`
