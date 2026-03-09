@@ -1,16 +1,16 @@
 # AI Email Assistant - Chrome Extension and Web Application
 
+**Glimpse** - AI Email assistant helps you save time in writing email responses. It provides ready-to-send/Context fulfilling email template. I have used Gemini 3.5 API to build my email responses followed with an enhancement on Gmail's reply email box - Added a custom button `Kushagra's AI Reply` that further contacts with my backend `email-writer-sb`.
+
 This project contains 3 modules : 
 
-1. email-writer-ext : A chromer extension asynchronously communicating with REST API of spring boot based email-writer-sb.
-2. email-writer-react : A front-end web-application which takes email content as input and generates a reply for you as per the selected tone.
-3. email-writer-sb : Spring Boot Java based REST API which uses Gemini 3.5 API to generate email response.
+1. `email-writer-ext` : A chromer extension asynchronously communicating with REST API of spring boot based email-writer-sb.
+2. `email-writer-react` : A front-end web-application which takes email content as input and generates a reply for you as per the selected tone.
+3. `email-writer-sb` : Spring Boot Java based REST API which uses Gemini 3.5 API to generate email response.
 
 **Steps to run the project locally :**
 
-**PRE-REQUISITES:**
-
-Go to `ai.google.dev` and create a free Gemini API for yourself.
+**PRE-REQUISITES:** Go to `ai.google.dev` and create a free Gemini API for yourself.
 
 **(A).RUN - RUN THE BACK-END APPLICATION**
 1. Clone the project on your local machine.
