@@ -6,10 +6,12 @@ This project contains 3 modules :
 2. email-writer-react : A front-end web-application which takes email content as input and generates a reply for you as per the selected tone.
 3. email-writer-sb : Spring Boot Java based REST API which uses Gemini 3.5 API to generate email response.
 
-**Steps to run the project locally : **
+**Steps to run the project locally :**
 
-**(Pre-requisites)**
+**(Pre-requisites):**
+
 Go to `ai.google.dev` and create a free Gemini API for yourself.
+
 
 **(A) Run the Back-End Application**
 1. Clone the project on your local machine.
@@ -21,6 +23,7 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 7. Write : `GEMINI_URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=";GEMINI_KEY={YOUR_API_KEY}` (i won't give mine, hehe).
 8. Apply > OK.
 9. Run and your backend will be live on `http://localhost:8080/api/email/generate`.
+
 
 **(B) Run the Front-End Application**
 TO BE UPDATED
