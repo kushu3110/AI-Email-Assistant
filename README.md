@@ -34,7 +34,7 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 <img width="500" height="500" alt="Screenshot 2026-03-10 at 12 11 26 AM" src="https://github.com/user-attachments/assets/4b475b41-5fc5-496b-9748-b21e251507d3" />
 
 
-**(B) RUN THE FRONT-END APPLICATION**
+**(B).RUN RUN THE FRONT-END APPLICATION**
 1. Open `email-writer-react` in VS Code or your preferred IDE.
 2. Open `App.jsx` file within `email-writer-react` module.
 3. Open intergrated terminal and run the command `npm run dev`.
@@ -45,11 +45,18 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 2. Give Payload and tone. 
 3. Click on Generate Reply.
 
-**(C) ADDING CHROME EXTENSION TO YOUR BROWSER**
+**(C).ADD - ADDING CHROME EXTENSION TO YOUR BROWSER**
 1. Open Chrome and navigate to `chrome://extensions/`.
 2. Toggle Developer tool to "ON" on top right corner.
 3. Click on Load unpacked option and upload the `email-writer-ext` module.
-4. Right click the uploaded extension and pin it. 
+4. Right click the uploaded extension and pin it.
+
+**(C).TEST - TEST THE CHROME EXTENSION**
+1. Open any of your email recieved on a google email account.
+2. Click on reply.
+3. Click on `Kushagra's AI Reply` button.
+4. The Email box will get filled with relevant reply.
+<img width="500" height="300" alt="Screenshot 2026-03-10 at 12 16 16 AM" src="https://github.com/user-attachments/assets/0c19305b-2dac-4fa8-b35e-725e20e8ee34" />
 
 
 
