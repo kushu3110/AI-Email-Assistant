@@ -34,7 +34,7 @@ This project contains 3 modules :
 <img width="500" height="500" alt="Screenshot 2026-03-10 at 12 11 26 AM" src="https://github.com/user-attachments/assets/4b475b41-5fc5-496b-9748-b21e251507d3" />
 
 
-**(B).RUN RUN THE FRONT-END APPLICATION**
+**(B).RUN - RUN THE FRONT-END APPLICATION**
 1. Open `email-writer-react` in VS Code or your preferred IDE.
 2. Open `App.jsx` file within `email-writer-react` module.
 3. Open intergrated terminal and run the command `npm run dev`.
