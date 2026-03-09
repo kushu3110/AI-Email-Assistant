@@ -8,7 +8,7 @@ This project contains 3 modules :
 
 **Steps to run the project locally :**
 
-**(Pre-requisites):**
+**(PRE-REQUISITES):**
 
 Go to `ai.google.dev` and create a free Gemini API for yourself.
 
@@ -26,4 +26,5 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 
 
 **(B) Run the Front-End Application**
+
 TO BE UPDATED
