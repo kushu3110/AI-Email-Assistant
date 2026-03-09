@@ -31,6 +31,7 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
      "emailContent": "TEST EMAIL",
      "tone": "THE TONE YOU WANT IN REPLY"
    }`
+<img width="500" height="500" alt="Screenshot 2026-03-10 at 12 11 26 AM" src="https://github.com/user-attachments/assets/4b475b41-5fc5-496b-9748-b21e251507d3" />
 
 
 **(B) RUN THE FRONT-END APPLICATION**
@@ -38,6 +39,11 @@ Go to `ai.google.dev` and create a free Gemini API for yourself.
 2. Open `App.jsx` file within `email-writer-react` module.
 3. Open intergrated terminal and run the command `npm run dev`.
 4. Your Front-end Email reply generator will be now live on `http://localhost:5173/`.
+
+**(B).TEST - TEST THE FRONT-END APPLICATION**
+1. Open `App.jsx` on Live server `http://localhost:5173/`.
+2. Give Payload and tone. 
+3. Click on Generate Reply.
 
 **(C) ADDING CHROME EXTENSION TO YOUR BROWSER**
 1. Open Chrome and navigate to `chrome://extensions/`.
