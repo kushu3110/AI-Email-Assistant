@@ -2,6 +2,9 @@
 
 **Glimpse** - AI Email assistant helps you save time in writing email responses. It provides ready-to-send/Context fulfilling email template. I have used Gemini 3.5 API to build my email responses followed with an enhancement on Gmail's reply email box - Added a custom button `Kushagra's AI Reply` that further contacts with my backend `email-writer-sb`.
 
+<img width="500" height="300" alt="email_gen" src="https://github.com/user-attachments/assets/3e835c9d-a4b0-4cb0-85ec-9232c34b57c3" />
+
+
 This project contains 3 modules : 
 
 1. `email-writer-ext` : A chromer extension asynchronously communicating with REST API of spring boot based email-writer-sb.
