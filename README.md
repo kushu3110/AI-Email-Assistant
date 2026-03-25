@@ -1,4 +1,4 @@
-# AI Email Assistant - Chrome Extension and Web Application
+# AI Email Assistant : Chrome Extension and Web Application
 
 **Glimpse** - AI Email assistant helps you save time in writing email responses. It provides ready-to-send/Context fulfilling email template. I have used Gemini 3.5 API to build my email responses followed with an enhancement on Gmail's reply email box - Added a custom button `Kushagra's AI Reply` that further contacts with my backend `email-writer-sb`.
 
